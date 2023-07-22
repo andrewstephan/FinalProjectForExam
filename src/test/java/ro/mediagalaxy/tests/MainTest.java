@@ -14,6 +14,7 @@ public class MainTest {
         //open page
         System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
     }
 
 
